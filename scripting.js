@@ -61,7 +61,7 @@ function getData() {
         $("#Name").html(Name);
         $("#Humidity").html(Humidity + "%");
         $("#Temperature").html(Temperature + " °C");
-        $("#BookingStatus").html(BookingStatus == "BookedUntil" ? "Booked until" : BookingStatus);
+        $("#BookingStatus").html(BookingStatus == "BookedUntil" ? "Booked until" : "FreeUntil" ? "Free until" : BookingStatus);
         $("#BookingTime").html(BookingTime);
         $("#Software").html(Software);
         $("#ReleaseDate").html(ReleaseDate);
