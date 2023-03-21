@@ -29,8 +29,6 @@ $(document).ready(function(){
     
   });
 
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-
 function getData() {
     var settings = {
         url: "https://webexapis.com/v1/xapi/status?deviceId=Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMl9hL0RFVklDRS8yN2NlYTQyYS00MjZhLTQxZjQtOTJlNS0zODNhNWFkMWJjY2Q=&name=*.*",
@@ -68,7 +66,9 @@ function getData() {
         $("#Software").html(Software);
         $("#ReleaseDate").html(ReleaseDate);
     });
-    
+
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+
 }
 
 //Getting data immediately, just once
