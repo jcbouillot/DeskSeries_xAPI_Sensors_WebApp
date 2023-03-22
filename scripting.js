@@ -31,10 +31,10 @@ $(document).ready(function(){
 
 function getData() {
     var settings = {
-        url: "https://webexapis.com/v1/xapi/status?deviceId=Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMl9hL0RFVklDRS8yN2NlYTQyYS00MjZhLTQxZjQtOTJlNS0zODNhNWFkMWJjY2Q=&name=*.*",
+        url: "https://webexapis.com/v1/xapi/status?deviceId=Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL0RFVklDRS9hYWEwMDE5Ni04NzA4LTRkYzMtOGY2YS1lZjc4YTI5OTM2MmY=&name=*.*",
         method: "GET",
         timeout: 0,
-        headers: {Authorization: "Bearer ZGJiMWQxNWUtOWE5OC00ZTM4LTlkNmItMzczY2U3MDM1NmY2OTQ0Y2NmNzYtMzhl_PF84_7d00d1be-dbb7-484c-8af8-5aee05d02e50",},
+        headers: {Authorization: "Bearer NDM2NDY2M2YtOGI4MC00YjgxLWE2MGUtN2NjZjBhMzI3MjYxNGYxNzBkYjctYmY3_P0A1_8361d1d5-e3ff-4a14-a5fa-0563ce66682b",},
     };
 
     $.ajax(settings).done(function (response) {
