@@ -47,8 +47,8 @@ function getData() {
         var Name = response.result.SystemUnit.BroadcastName;
         var Humidity = response.result.RoomAnalytics.RelativeHumidity;
         var Temperature = response.result.RoomAnalytics.AmbientTemperature;
-//        var BookingStatus = response.result.Bookings.Availability.Status;
-//        var BookingTime = response.result.Bookings.Availability.TimeStamp;
+        let BookingStatus = response.result.Bookings.Availability.Status;
+        let BookingTime = response.result.Bookings.Availability.TimeStamp;
         var Software = response.result.SystemUnit.Software.DisplayName;
         var ReleaseDate = response.result.SystemUnit.Software.ReleaseDate;
 
